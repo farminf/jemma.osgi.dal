@@ -334,7 +334,7 @@ public class ZigBeeDalAdapter implements IApplicationService,IAttributeValuesLis
 				return;
 			}
 			
-			ClusterDALAdapter adapter= ctx.getService(functionRefs[0]);
+			ClusterDALAdapter adapter= (ClusterDALAdapter)  ctx.getService(functionRefs[0]);
 			
 			FunctionData newValue=adapter.getMatchingPropertyValue(attributeName, attributeValue);
 			
