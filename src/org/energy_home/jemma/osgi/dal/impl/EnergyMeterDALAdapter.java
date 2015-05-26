@@ -16,7 +16,6 @@ import org.osgi.service.dal.Units;
 import org.osgi.service.dal.functions.Meter;
 import org.osgi.service.dal.functions.data.LevelData;
 
-import sun.util.LocaleServiceProviderPool.LocalizedObjectGetter;
 
 public class EnergyMeterDALAdapter extends BaseDALAdapter implements Meter{
 
